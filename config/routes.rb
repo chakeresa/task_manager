@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   get '/tasks', to: 'tasks#index'
   get '/tasks/new', to: 'tasks#new'
-  post '/tasks/new', to: 'tasks#create'
+  post '/tasks', to: 'tasks#create'
 end
